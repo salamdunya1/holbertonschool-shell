@@ -1,3 +1,2 @@
 #!/bin/bash
-for f in *.html; do [ ! -e "../$f" ] || [ "$f" -nt "../$f" ] && cp "$f" "../"; done
-
+cp documents/project/folder_source/*.html documents/folder_destination/
